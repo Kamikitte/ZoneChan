@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>        
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Hosting" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ZoneClient\ZoneClient.csproj" />
+    </ItemGroup>
+
+</Project>

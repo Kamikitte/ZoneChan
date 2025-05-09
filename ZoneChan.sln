@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cmd", "src\Cmd\Cmd.csproj", "{7A6D4B72-E0AB-407D-81D0-171B5CBA1A45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F64D6A6-C6D2-4509-BF7B-3150D681D993}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{A429DD9C-655C-45C4-9067-19E0E6AEB571}"
+	ProjectSection(SolutionItems) = preProject
+		ZoneChan.sln = ZoneChan.sln
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoneClient", "src\ZoneClient\ZoneClient.csproj", "{FA7C9E69-6907-469F-8E2C-FE91A40A26BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A6D4B72-E0AB-407D-81D0-171B5CBA1A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6D4B72-E0AB-407D-81D0-171B5CBA1A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6D4B72-E0AB-407D-81D0-171B5CBA1A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6D4B72-E0AB-407D-81D0-171B5CBA1A45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7C9E69-6907-469F-8E2C-FE91A40A26BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7C9E69-6907-469F-8E2C-FE91A40A26BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7C9E69-6907-469F-8E2C-FE91A40A26BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7C9E69-6907-469F-8E2C-FE91A40A26BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A6D4B72-E0AB-407D-81D0-171B5CBA1A45} = {4F64D6A6-C6D2-4509-BF7B-3150D681D993}
+		{FA7C9E69-6907-469F-8E2C-FE91A40A26BE} = {4F64D6A6-C6D2-4509-BF7B-3150D681D993}
+	EndGlobalSection
+EndGlobal
